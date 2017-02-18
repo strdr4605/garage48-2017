@@ -22,8 +22,9 @@ $header-footer-height: 50px;
 }
 
 #content {
+  background-color: red;
   display: flex;
-  min-height: 100vh;
+  // min-height: 100vh;
   flex-flow: column;
   flex-grow: 1;
 }

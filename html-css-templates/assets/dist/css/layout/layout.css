@@ -19,9 +19,9 @@
   width: 300px; }
 
 #content {
+  background-color: red;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
   -ms-flex-flow: column;
   flex-flow: column;
   -ms-flex-positive: 1;
