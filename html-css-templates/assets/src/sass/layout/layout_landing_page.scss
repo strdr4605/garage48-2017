@@ -1,28 +1,77 @@
 $header1-color: #eadfc8;
 $content1-color: #eadfc8;
 $content2-color: #203447;
-$footer1-color: #66b166;
+$content3-color: #66b166;
+$footer1-color: #eadfc8;
+$button1-color: #e8855c;
 $header1-height: 50px;
 $content1-height: 700px;
 $content2-height: 500px;
+$content3-height: 500px;
 $footer1-height: 500px;
 
 #header1 {
   background-color: $header1-color;
   top: 0;
+  display: flex;
+  flex-direction: row;
   height: $header1-height;
   width: auto;
 }
+#logo1 {
+   width: auto;
+   background: url("../../images/hackwall_blue.png") no-repeat left center;
+   -webkit-background-size: contain;
+   -moz-background-size: contain;
+   background-size: contain;
+}
 #content1 {
   background-color: $content1-color;
-  // top: 0;
-  height: $content1-height;
+  display: flex;
+  flex-direction: row;
+  height:  $content1-height;
   width: auto;
+}
+#content1-leftpart {
+   padding-left: 2vw;
+   width: 100%;
+}
+#content1-leftpart-paragraph1 {
+   padding-top: 250px;
+   color: $content2-color;
+   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   font-size: 4vw;
+}
+#content1-leftpart-paragraph2 {
+   width:auto;
+   word-wrap: break-word;
+   color: $content2-color;
+   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   font-size: 2vw;
+}
+#content1-rightpart {
+   width: 100%;
+   background: url("../../images/laptop.png") no-repeat center center;
+   -webkit-background-size: contain;
+   -moz-background-size: contain;
+   background-size: contain;
 }
 #content2 {
   background-color: $content2-color;
-  // top: 0;
   height: $content2-height;
+  width: auto;
+}
+#content2-paragraph1{
+   width:auto;
+   word-wrap: break-word;
+   color: black;
+   text-align: center;
+   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   font-size: 2vw;
+}
+#content3 {
+  background-color: $content3-color;
+  height: $content3-height;
   width: auto;
 }
 #footer1 {
@@ -31,6 +80,30 @@ $footer1-height: 500px;
   bottom: 0;
   width: auto;
   height: $footer1-height;
-  clear: left;
-  width: 100%;
+}
+#button1 {
+   width:7vw;
+   height: 0.5vh;
+   padding:12px;
+   background-color:$button1-color;
+   text-align: center;
+}
+#button2 {
+
+   width:3vw;
+   background-color:$header1-color;
+}
+#button3 {
+   width:3vw;
+   background-color:$header1-color;
+}
+#button4 {
+   background-color:$button1-color;
+}
+#list-button li{
+   display: inline;
+   margin-left: 50px;
+}
+#list-button{
+   margin-left: 60%;
 }
