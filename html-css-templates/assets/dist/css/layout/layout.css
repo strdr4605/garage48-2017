@@ -18,14 +18,15 @@
 
 #dashboard {
   background-color: pink;
-  margin-left: -300px;
+  margin-left: -25vw;
   position: relative;
-  width: 300px; }
+  width: 25vw; }
 
 #content {
   background-color: #66A5AD;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -ms-flex-flow: column;
   flex-flow: column;
   -ms-flex-positive: 1;
