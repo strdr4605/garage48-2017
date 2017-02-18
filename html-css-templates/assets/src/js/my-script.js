@@ -11,11 +11,35 @@ $(document).ready(function(){
         $("#dashboard").toggleClass("hide");
     });
     $('input[type="checkbox"]').click(function(){
-            if($('input[type="checkbox"]').prop("checked") == true){
-                console.log($('input[type="checkbox"]').prop("id") + " check");
-            }
-            else if($('input[type="checkbox"]').prop("checked") == false){
-                console.log($('input[type="checkbox"]').prop("id") + " uncheck");
-            }
-        });
+        var checkNum = 0;
+      $('input[type="checkbox"]').each(
+        function(i){
+          if($(this).prop("checked") == true){
+            checkNum++;
+            console.log($(this).prop("id") + " check");
+          }
+          else if($(this).prop("checked") == false){
+            checkNum--;
+            console.log($(this).prop("id") + " uncheck");
+          }
+        })
+        console.log(checkNum);
+        if(checkNum == -8){
+          $('.product').show();
+        } else {
+          $('.product').hide();
+          $('input[type="checkbox"]').each(
+            function(i){
+              var that = this;
+              if($(that).prop("checked") == true){
+                $('.product').each(
+                  function(i){
+                    if($(this).hasClass($(that).prop("id") + ''))$(this).show()
+                  }
+                )
+              }
+
+            })
+        }
+      });
 });
