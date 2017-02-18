@@ -1,0 +1,91 @@
+#header {
+  background-color: #fffbd0;
+  top: 0;
+  height: 50px;
+  width: auto; }
+
+#main {
+  -ms-flex: 1;
+  flex: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row; }
+
+#dashboard {
+  background-color: pink;
+  margin-left: -25vw;
+  position: relative;
+  width: 25vw; }
+
+#content {
+  background-color: red;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+#footer {
+  background-color: #fffbd0;
+  position: relative;
+  bottom: 0;
+  width: auto;
+  height: 50px;
+  clear: left;
+  width: 100%; }
+
+#products-list {
+  width: 100vw;
+  display: -ms-flexbox;
+  display: flex; }
+  #products-list ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  #products-list li {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 400px;
+    margin: 10px; }
+    #products-list li .product {
+      border: 1px solid black;
+      margin: 10px;
+      position: relative;
+      width: 300px;
+      height: 400px; }
+      #products-list li .product img {
+        width: 300px;
+        height: 200px; }
+      #products-list li .product .info {
+        text-align: center; }
+        #products-list li .product .info div {
+          margin: 10px !important;
+          font-size: 10px; }
+        #products-list li .product .info .type, #products-list li .product .info .name, #products-list li .product .info .time {
+          font-size: 20px;
+          color: black; }
+      #products-list li .product .description {
+        visibility: hidden;
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        width: 100%; }
+      #products-list li .product .zoom-product {
+        visibility: hidden; }

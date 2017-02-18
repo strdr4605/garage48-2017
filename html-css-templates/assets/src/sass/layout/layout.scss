@@ -16,14 +16,15 @@ $header-footer-height: 50px;
 
 #dashboard {
   background-color: pink;
-  margin-left: -300px;
+  margin-left: -25vw;
   position: relative;
-  width: 300px;
+  width: 25vw;
 }
 
 #content {
   background-color: red;
   display: flex;
+  position: relative;
   // min-height: 100vh;
   flex-flow: column;
   flex-grow: 1;
