@@ -1,0 +1,75 @@
+$primary-color: #fffbd0;
+$header-footer-height: 50px;
+
+#header {
+  background-color: $primary-color;
+  top: 0;
+  height: $header-footer-height;
+  width: auto;
+}
+
+#main {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+#dashboard {
+  background-color: pink;
+}
+
+.active-dashboard {
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+
+      /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        from{width: 0px;}
+        to{width: 300px;}
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+      from{width: 0px;}
+      to{width: 300px;}
+    }
+    width: 300px;
+}
+
+.inactive-dashboard {
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+
+      /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        from{width: 300px;}
+        to{width: 0px;}
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+      from{width: 300px;}
+      to{width: 0px;}
+    }
+}
+
+#content {
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column;
+  flex-grow: 1;
+}
+
+#footer {
+  background-color: $primary-color;
+  position: relative;
+  bottom: 0;
+  width: auto;
+  height: $header-footer-height;
+  clear: left;
+  width: 100%;
+}
