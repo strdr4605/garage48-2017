@@ -1,4 +1,2 @@
-# Personal-Site. First task at Yopeso Front-end Internship
-## Run these commands to build the project
-1. `npm install`
-2. `gulp`
+# Sticky-Footer 
+Example using flexbox css
