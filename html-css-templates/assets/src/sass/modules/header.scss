@@ -29,3 +29,65 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
+#my-list ul {
+  padding-left: 0;
+  margin-top: 15px;
+
+}
+
+
+
+#my-list li{
+  display: inline;
+  margin-left: 40px;
+  color: #eadfc8;
+}
+
+#my-list li:hover{
+  color: white;
+}
+
+#profile-name {
+  flex-grow: 0;
+  padding: 10px;
+  background-color: #90AFC5;
+  text-align: right;
+  border-radius: 4px;
+}
+
+#profile-name:hover {
+  padding: 10px;
+  background-color: #90AFC5;
+  color: white;
+}
+
+#profile {
+  padding-right: 20px;
+  margin-top: 5px;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row-reverse;
+
+  #profile-info {
+    z-index: 2;
+    display: flex;
+    flex-flow: column;
+
+    ul {
+      background-color: red;
+      list-style: none;
+      padding-left: 0;
+      text-align: center;
+      padding: 10px;
+      display: none;
+      border-radius: 4px;
+
+      progress {
+        width: 60px;
+      }
+
+    }
+  }
+
+}

@@ -2,6 +2,8 @@ $primary-color: #203447;
 $header-footer-height: 50px;
 
 #header {
+  display: flex;
+  flex-direction: row;
   background-color: $primary-color;
   top: 0;
   height: $header-footer-height;

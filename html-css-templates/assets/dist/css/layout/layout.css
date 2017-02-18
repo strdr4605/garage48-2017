@@ -1,4 +1,8 @@
 #header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
   background-color: #203447;
   top: 0;
   height: 50px;

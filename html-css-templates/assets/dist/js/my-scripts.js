@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('.company').hide();
     $(".menu-icon").click(function(){
         $(this).toggleClass("change");
         if($("#dashboard").hasClass("hide")){
@@ -42,4 +43,17 @@ $(document).ready(function(){
             })
         }
       });
+
+      $('#profile-name').click(function(){
+        $('#profile-info ul').toggle()
+      })
+
+      $('#challange').click(function(){
+        $('.product').show()
+        $('.company').hide()
+      })
+      $('#company').click(function(){
+        $('.product').hide()
+        $('.company').show()
+      })
 });

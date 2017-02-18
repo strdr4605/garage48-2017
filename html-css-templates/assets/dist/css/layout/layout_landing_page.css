@@ -1,0 +1,95 @@
+#header1 {
+  background-color: #eadfc8;
+  top: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 50px;
+  width: auto; }
+
+#logo1 {
+  width: auto;
+  background: url("../../images/hackwall_blue.png") no-repeat left center;
+  background-size: contain; }
+
+#content1 {
+  background-color: #eadfc8;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 700px;
+  width: auto; }
+
+#content1-leftpart {
+  padding-left: 2vw;
+  width: 100%; }
+
+#content1-leftpart-paragraph1 {
+  padding-top: 250px;
+  color: #203447;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 4vw; }
+
+#content1-leftpart-paragraph2 {
+  width: auto;
+  word-wrap: break-word;
+  color: #203447;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2vw; }
+
+#content1-rightpart {
+  width: 100%;
+  background: url("../../images/laptop.png") no-repeat center center;
+  background-size: contain; }
+
+#content2 {
+  background-color: #203447;
+  height: 500px;
+  width: auto; }
+
+#content2-paragraph1 {
+  width: auto;
+  word-wrap: break-word;
+  color: black;
+  text-align: center;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2vw; }
+
+#content3 {
+  background-color: #66b166;
+  height: 500px;
+  width: auto; }
+
+#footer1 {
+  background-color: #eadfc8;
+  position: relative;
+  bottom: 0;
+  width: auto;
+  height: 500px; }
+
+#button1 {
+  width: 7vw;
+  height: 0.5vh;
+  padding: 12px;
+  background-color: #e8855c;
+  text-align: center; }
+
+#button2 {
+  width: 3vw;
+  background-color: #eadfc8; }
+
+#button3 {
+  width: 3vw;
+  background-color: #eadfc8; }
+
+#button4 {
+  background-color: #e8855c; }
+
+#list-button li {
+  display: inline;
+  margin-left: 50px; }
+
+#list-button {
+  margin-left: 60%; }

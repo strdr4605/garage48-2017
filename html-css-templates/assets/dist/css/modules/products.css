@@ -1,4 +1,8 @@
 #header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
   background-color: #203447;
   top: 0;
   height: 50px;
@@ -78,7 +82,7 @@
         #products-list li .product .info div {
           margin: 10px !important;
           font-size: 10px; }
-        #products-list li .product .info .type, #products-list li .product .info .name, #products-list li .product .info .time {
+        #products-list li .product .info .type, #products-list li .product .info .name, #products-list li .product .info .time, #products-list li .product .info .country, #products-list li .product .info .employs {
           font-size: 20px;
           color: black; }
       #products-list li .product .description {
