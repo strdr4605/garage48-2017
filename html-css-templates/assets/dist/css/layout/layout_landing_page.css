@@ -9,9 +9,7 @@
   width: auto; }
 
 #logo1 {
-  width: auto;
-  background: url("../../images/hackwall_blue.png") no-repeat left center;
-  background-size: contain; }
+  width: 200px; }
 
 #content1 {
   background-color: #eadfc8;
