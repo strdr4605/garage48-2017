@@ -3,7 +3,7 @@
   display: flex;
   -ms-flex-direction: row;
   flex-direction: row;
-  background-color: #fffbd0;
+  background-color: #203447;
   top: 0;
   height: 50px;
   width: auto; }
@@ -23,7 +23,7 @@
   width: 25vw; }
 
 #content {
-  background-color: #66A5AD;
+  background-color: #faf9f8;
   display: -ms-flexbox;
   display: flex;
   position: relative;
@@ -33,7 +33,7 @@
   flex-grow: 1; }
 
 #footer {
-  background-color: #fffbd0;
+  background-color: #203447;
   position: relative;
   bottom: 0;
   width: auto;
