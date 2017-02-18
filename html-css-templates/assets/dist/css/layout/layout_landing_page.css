@@ -1,0 +1,24 @@
+#header1 {
+  background-color: #eadfc8;
+  top: 0;
+  height: 50px;
+  width: auto; }
+
+#content1 {
+  background-color: #eadfc8;
+  height: 700px;
+  width: auto; }
+
+#content2 {
+  background-color: #203447;
+  height: 500px;
+  width: auto; }
+
+#footer1 {
+  background-color: #66b166;
+  position: relative;
+  bottom: 0;
+  width: auto;
+  height: 500px;
+  clear: left;
+  width: 100%; }

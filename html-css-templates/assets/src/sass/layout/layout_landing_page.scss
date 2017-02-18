@@ -1,0 +1,36 @@
+$header1-color: #eadfc8;
+$content1-color: #eadfc8;
+$content2-color: #203447;
+$footer1-color: #66b166;
+$header1-height: 50px;
+$content1-height: 700px;
+$content2-height: 500px;
+$footer1-height: 500px;
+
+#header1 {
+  background-color: $header1-color;
+  top: 0;
+  height: $header1-height;
+  width: auto;
+}
+#content1 {
+  background-color: $content1-color;
+  // top: 0;
+  height: $content1-height;
+  width: auto;
+}
+#content2 {
+  background-color: $content2-color;
+  // top: 0;
+  height: $content2-height;
+  width: auto;
+}
+#footer1 {
+  background-color: $footer1-color;
+  position: relative;
+  bottom: 0;
+  width: auto;
+  height: $footer1-height;
+  clear: left;
+  width: 100%;
+}
