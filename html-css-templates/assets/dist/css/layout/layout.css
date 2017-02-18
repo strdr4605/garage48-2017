@@ -9,11 +9,13 @@
   flex: 1;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: column;
-  flex-flow: column; }
+  -ms-flex-flow: row;
+  flex-flow: row; }
 
 #dashboard {
-  background-color: pink; }
+  background-color: pink;
+  left: -300px;
+  position: relative; }
 
 .active-dashboard {
   -webkit-animation-name: example;
@@ -28,9 +30,9 @@
 
 @keyframes example {
   from {
-    width: 0px; }
+    left: -300px; }
   to {
-    width: 300px; } }
+    left: 0px; } }
 
 .inactive-dashboard {
   -webkit-animation-name: example1;
@@ -44,9 +46,9 @@
 
 @keyframes example1 {
   from {
-    width: 300px; }
+    left: 0px; }
   to {
-    width: 0px; } }
+    left: -300px; } }
 
 #content {
   display: -ms-flexbox;

@@ -1,0 +1,13 @@
+#options label {
+  float: left; }
+
+#options ul {
+  margin: 0;
+  list-style: none;
+  float: left; }
+
+#options ul input {
+  float: left; }
+
+#options {
+  position: absolute; }

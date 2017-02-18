@@ -11,11 +11,14 @@ $header-footer-height: 50px;
 #main {
   flex: 1;
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
 }
 
 #dashboard {
   background-color: pink;
+  left: -300px;
+  position: relative;
+
 }
 
 .active-dashboard {
@@ -26,14 +29,14 @@ $header-footer-height: 50px;
 
       /* Safari 4.0 - 8.0 */
     @-webkit-keyframes example {
-        from{width: 0px;}
-        to{width: 300px;}
+        from{left: -300px;}
+        to{left: 0px;}
     }
 
     /* Standard syntax */
     @keyframes example {
-      from{width: 0px;}
-      to{width: 300px;}
+      from{left: -300px;}
+      to{left: 0px;}
     }
     width: 300px;
 }
@@ -46,14 +49,14 @@ $header-footer-height: 50px;
 
       /* Safari 4.0 - 8.0 */
     @-webkit-keyframes example1 {
-        from{width: 300px;}
-        to{width: 0px;}
+      from{left: 0px;}
+      to{left: -300px;}
     }
 
     /* Standard syntax */
     @keyframes example1 {
-      from{width: 300px;}
-      to{width: 0px;}
+      from{left: 0px;}
+      to{left: -300px;}
     }
 }
 
