@@ -1,4 +1,8 @@
 #header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
   background-color: #fffbd0;
   top: 0;
   height: 50px;
@@ -14,50 +18,14 @@
 
 #dashboard {
   background-color: pink;
-  left: -300px;
-  position: relative; }
-
-.active-dashboard {
-  -webkit-animation-name: example;
-  /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 2s;
-  /* Safari 4.0 - 8.0 */
-  animation-name: example;
-  animation-duration: 2s;
-  /* Safari 4.0 - 8.0 */
-  /* Standard syntax */
-  width: 300px;
-  left: 0px !important; }
-
-@keyframes example {
-  from {
-    left: -300px; }
-  to {
-    left: 0px; } }
-
-.inactive-dashboard {
-  width: 300px;
-  left: 0px !important;
-  -webkit-animation-name: example1;
-  /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 2s;
-  /* Safari 4.0 - 8.0 */
-  animation-name: example1;
-  animation-duration: 2s;
-  /* Safari 4.0 - 8.0 */
-  /* Standard syntax */
-  left: -300px !important; }
-
-@keyframes example1 {
-  from {
-    left: 0px; }
-  to {
-    left: -300px; } }
+  margin-left: -300px;
+  position: relative;
+  width: 300px; }
 
 #content {
+  background-color: #66A5AD;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
   -ms-flex-flow: column;
   flex-flow: column;
   -ms-flex-positive: 1;

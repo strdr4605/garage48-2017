@@ -1,6 +1,8 @@
 .menu-icon {
     display: inline-block;
     cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -26,4 +28,34 @@
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+#my-list li{
+  display: inline;
+  margin-left: 50px;
+}
+
+#my-list li:hover{
+  display: inline;
+  margin-left: 50px;
+  color:white;
+}
+
+#log-list{
+  margin-left: 40%;
+}
+
+#log-list li{
+  display: inline;
+  margin-left: 50px;
+  padding: 10px;
+  background-color: #90AFC5;
+}
+
+#log-list li:hover {
+  display: inline;
+  margin-left: 50px;
+  padding: 10px;
+  background-color: #90AFC5;
+  color: white;
 }

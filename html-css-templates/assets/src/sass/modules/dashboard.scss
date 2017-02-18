@@ -1,18 +1,12 @@
+#challange-type, #challange-skills {
+  display: flex;
+  flex-flow: column;
 
-#options label {
-  float: left;
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
 
-}
-
-#options ul {
-  margin: 0;
-  list-style: none;
-  float: left;
-}
-#options ul input{
-    float:left;
-}
-
-#options {
-  position: absolute;
+  margin-left: 50px;
+  margin-top: 20px;
 }

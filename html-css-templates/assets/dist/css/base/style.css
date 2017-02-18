@@ -3,6 +3,7 @@ body {
   padding: 0; }
 
 .site {
+  font-family: 'Raleway', sans-serif;
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
