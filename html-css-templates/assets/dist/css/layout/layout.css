@@ -26,7 +26,8 @@
   animation-duration: 2s;
   /* Safari 4.0 - 8.0 */
   /* Standard syntax */
-  width: 300px; }
+  width: 300px;
+  left: 0px !important; }
 
 @keyframes example {
   from {
@@ -35,6 +36,8 @@
     left: 0px; } }
 
 .inactive-dashboard {
+  width: 300px;
+  left: 0px !important;
   -webkit-animation-name: example1;
   /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 2s;
@@ -42,7 +45,8 @@
   animation-name: example1;
   animation-duration: 2s;
   /* Safari 4.0 - 8.0 */
-  /* Standard syntax */ }
+  /* Standard syntax */
+  left: -300px !important; }
 
 @keyframes example1 {
   from {

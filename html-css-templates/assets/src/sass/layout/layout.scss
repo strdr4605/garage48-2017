@@ -39,9 +39,12 @@ $header-footer-height: 50px;
       to{left: 0px;}
     }
     width: 300px;
+    left: 0px !important;
 }
 
 .inactive-dashboard {
+  width: 300px;
+  left: 0px !important;
   -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
   animation-name: example1;
@@ -58,6 +61,7 @@ $header-footer-height: 50px;
       from{left: 0px;}
       to{left: -300px;}
     }
+    left: -300px !important;
 }
 
 #content {
