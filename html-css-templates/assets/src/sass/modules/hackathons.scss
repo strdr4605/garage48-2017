@@ -169,7 +169,7 @@ a {
     height: 30px;
 }
 
-#upload {
+#upload, #check {
   display: flex;
   flex-flow: row;
   align-items: center;
@@ -230,13 +230,10 @@ a {
     top:12px;
 }
 
-#checkmark1 {
+#checkmark1, #checkmark2 {
   margin-left: 10px;
 }
 
-#checkmark2 {
-  padding: 10px;
-}
 
 #finish {
   display: none;
