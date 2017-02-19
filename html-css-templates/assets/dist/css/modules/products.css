@@ -68,6 +68,10 @@
     justify-content: center;
     height: 400px;
     margin: 10px; }
+    #products-list li a {
+      color: black;
+      text-decoration: none;
+      /* no underline */ }
     #products-list li .product {
       margin: 10px;
       position: relative;

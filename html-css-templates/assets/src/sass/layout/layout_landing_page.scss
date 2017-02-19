@@ -16,30 +16,29 @@ $footer1-height: 500px;
   display: flex;
   flex-direction: row;
   height: $header1-height;
-  width: auto;
 }
 #logo1 {
-   width: auto;
-   background: url("../../images/hackwall_blue.png") no-repeat left center;
-   -webkit-background-size: contain;
-   -moz-background-size: contain;
-   background-size: contain;
+   width: 200px;
 }
 #content1 {
   background-color: $content1-color;
   display: flex;
   flex-direction: row;
   height:  $content1-height;
-  width: auto;
+  align-items: center;
 }
 #content1-leftpart {
    padding-left: 2vw;
+   display: flex;
+   align-items: center;
+   flex-flow: column;
    width: 100%;
 }
+
 #content1-leftpart-paragraph1 {
-   padding-top: 250px;
    color: $content2-color;
-   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
    font-size: 4vw;
 }
 #content1-leftpart-paragraph2 {
@@ -50,25 +49,30 @@ $footer1-height: 500px;
    font-size: 2vw;
 }
 #content1-rightpart {
-   width: 100%;
-   background: url("../../images/laptop.png") no-repeat center center;
-   -webkit-background-size: contain;
-   -moz-background-size: contain;
-   background-size: contain;
+  width: 50vw;
 }
 #content2 {
+  position: relative;
   background-color: $content2-color;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   height: $content2-height;
   width: auto;
+  color: $header1-color;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  font-size: 40px;
+
+  div:nth-child(1) {
+    padding-top: 15%;
+  }
 }
-#content2-paragraph1{
-   width:auto;
-   word-wrap: break-word;
-   color: black;
-   text-align: center;
-   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-   font-size: 2vw;
+
+#green {
+  color: #66b166;
 }
+
 #content3 {
   background-color: $content3-color;
   height: $content3-height;
@@ -82,11 +86,14 @@ $footer1-height: 500px;
   height: $footer1-height;
 }
 #button1 {
-   width:7vw;
-   height: 0.5vh;
-   padding:12px;
+   padding:10px;
    background-color:$button1-color;
+   color: $header1-color;
+   width: 20vw;
    text-align: center;
+   border-radius: 4px;
+   font-size: 30px
+
 }
 #button2 {
 
@@ -97,13 +104,28 @@ $footer1-height: 500px;
    width:3vw;
    background-color:$header1-color;
 }
+#bold {
+  font-weight: 900;
+}
+
 #button4 {
    background-color:$button1-color;
+   padding: 10px;
+   border-radius: 10px;
 }
 #list-button li{
    display: inline;
    margin-left: 50px;
 }
 #list-button{
-   margin-left: 60%;
+   margin-left: 35%;
+}
+
+a {
+  text-decoration: none;
+  color: $header1-color;
+}
+
+#com {
+  color: black;
 }

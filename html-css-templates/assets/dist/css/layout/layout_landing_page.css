@@ -5,13 +5,10 @@
   display: flex;
   -ms-flex-direction: row;
   flex-direction: row;
-  height: 50px;
-  width: auto; }
+  height: 50px; }
 
 #logo1 {
-  width: auto;
-  background: url("../../images/hackwall_blue.png") no-repeat left center;
-  background-size: contain; }
+  width: 200px; }
 
 #content1 {
   background-color: #eadfc8;
@@ -20,16 +17,23 @@
   -ms-flex-direction: row;
   flex-direction: row;
   height: 700px;
-  width: auto; }
+  -ms-flex-align: center;
+  align-items: center; }
 
 #content1-leftpart {
   padding-left: 2vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-flow: column;
+  flex-flow: column;
   width: 100%; }
 
 #content1-leftpart-paragraph1 {
-  padding-top: 250px;
   color: #203447;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 4vw; }
 
 #content1-leftpart-paragraph2 {
@@ -40,22 +44,28 @@
   font-size: 2vw; }
 
 #content1-rightpart {
-  width: 100%;
-  background: url("../../images/laptop.png") no-repeat center center;
-  background-size: contain; }
+  width: 50vw; }
 
 #content2 {
+  position: relative;
   background-color: #203447;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   height: 500px;
-  width: auto; }
-
-#content2-paragraph1 {
   width: auto;
-  word-wrap: break-word;
-  color: black;
-  text-align: center;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 2vw; }
+  color: #eadfc8;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  font-size: 40px; }
+  #content2 div:nth-child(1) {
+    padding-top: 15%; }
+
+#green {
+  color: #66b166; }
 
 #content3 {
   background-color: #66b166;
@@ -70,11 +80,13 @@
   height: 500px; }
 
 #button1 {
-  width: 7vw;
-  height: 0.5vh;
-  padding: 12px;
+  padding: 10px;
   background-color: #e8855c;
-  text-align: center; }
+  color: #eadfc8;
+  width: 20vw;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 30px; }
 
 #button2 {
   width: 3vw;
@@ -84,12 +96,24 @@
   width: 3vw;
   background-color: #eadfc8; }
 
+#bold {
+  font-weight: 900; }
+
 #button4 {
-  background-color: #e8855c; }
+  background-color: #e8855c;
+  padding: 10px;
+  border-radius: 10px; }
 
 #list-button li {
   display: inline;
   margin-left: 50px; }
 
 #list-button {
-  margin-left: 60%; }
+  margin-left: 35%; }
+
+a {
+  text-decoration: none;
+  color: #eadfc8; }
+
+#com {
+  color: black; }
