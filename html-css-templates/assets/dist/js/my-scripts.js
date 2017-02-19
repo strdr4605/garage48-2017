@@ -56,4 +56,23 @@ $(document).ready(function(){
         $('.product').hide()
         $('.company').show()
       })
+
+      $('#upload').click(function() {
+        $('#loader1').show()
+        setTimeout(function(){
+          $('#loader1').hide()
+          $('#checkmark1').show()
+          $('#frame2').show()
+        },2000)
+      });
+
+      $('#check').click(function() {
+        $('#loader2').show()
+        setTimeout(function(){
+          $('#loader2').hide()
+          $('#checkmark2').show()
+          $('#frame2').show()
+          $('#finish').show()
+        },2000)
+      });
 });
