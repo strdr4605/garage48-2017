@@ -1,0 +1,127 @@
+#header1 {
+  background-color: #eadfc8;
+  top: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 50px; }
+
+#logo1 {
+  width: 200px; }
+
+#content1 {
+  background-color: #eadfc8;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 700px;
+  -ms-flex-align: center;
+  align-items: center; }
+
+#content1-leftpart {
+  padding-left: 2vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  width: 100%; }
+
+#content1-leftpart-paragraph1 {
+  color: #203447;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 4vw; }
+
+#content1-leftpart-paragraph2 {
+  width: auto;
+  word-wrap: break-word;
+  color: #203447;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2vw; }
+
+#content1-rightpart {
+  width: 50vw; }
+
+#content2 {
+  position: relative;
+  background-color: #203447;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  height: 500px;
+  width: auto;
+  color: #eadfc8;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  font-size: 40px; }
+  #content2 div:nth-child(1) {
+    padding-top: 15%; }
+
+#green {
+  color: #66b166; }
+
+#content3 {
+  background-color: #66b166;
+  height: 500px;
+  width: auto; }
+
+#footer1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #eadfc8;
+  bottom: 0; }
+  #footer1 img {
+    width: 75px;
+    margin: 30px 20px; }
+
+#button1 {
+  padding: 10px;
+  background-color: #e8855c;
+  color: #eadfc8;
+  width: 20vw;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 30px; }
+
+#button2 {
+  width: 3vw;
+  background-color: #eadfc8; }
+
+#button3 {
+  width: 3vw;
+  background-color: #eadfc8; }
+
+#bold {
+  font-weight: 900; }
+
+#button4 {
+  background-color: #e8855c;
+  padding: 10px;
+  border-radius: 10px; }
+
+#list-button li {
+  display: inline;
+  margin-left: 50px; }
+
+#list-button {
+  margin-left: 35%; }
+
+a {
+  text-decoration: none;
+  color: #eadfc8; }
+
+#com {
+  color: black; }

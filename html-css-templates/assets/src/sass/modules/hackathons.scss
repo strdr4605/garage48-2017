@@ -1,0 +1,120 @@
+$test-width: 50vw;
+$border-color: black;
+$margin-top: 9vh;
+$margin-left: 2vw;
+
+a {
+  text-decoration: none;
+  color: #eadfc8;
+}
+
+
+.hackathon {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  min-width: 100vw;
+}
+
+#content {
+  display: flex;
+  flex-flow: column;
+}
+
+#top {
+  display: flex;
+  flex-flow: row;
+  flex-grow: 1;
+  border-bottom: 5px solid $border-color;
+}
+
+#bottom {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row;
+}
+
+#top-left {
+  // background-color: red;
+  width: $test-width;
+  border-right: 5px solid $border-color;
+  position: relative;
+
+  #iframe1 {
+    width: $test-width - 5;
+    height: $test-width - 32;
+    position: absolute;
+    margin-top: $margin-top;
+    margin-left: $margin-left;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
+
+#top-right {
+  // background-color: yellow;
+  width: 100vw - $test-width;
+  position: relative;
+
+  #description {
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    width: 60%;
+    margin-top: $margin-top - 10;
+    margin-left: $margin-left + 5vw;
+
+    #title {
+
+    }
+    ol {
+    }
+  }
+}
+
+#bottom-left {
+  // background-color: pink;
+  width: $test-width;
+  border-right: 5px solid $border-color;
+
+  #iframe2 {
+    width: $test-width - 5;
+    height: $test-width - 32;
+    position: absolute;
+    margin-top:$margin-top;
+    margin-left: $margin-left;
+    background-color: orange;
+    border-radius: 10px;
+  }
+}
+
+#bottom-right {
+  // background-color: green;
+  width: 100vw - $test-width;
+  position: relative;
+
+  #testing {
+    position: absolute;
+    width: 200px;
+    margin-top: $margin-top;
+    margin-left: $margin-left * 6;
+    // display: none;
+
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      li {
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+        background-color: violet;
+        border: 1px solid purple;
+        border-radius: 5px;
+      }
+    }
+  }
+}

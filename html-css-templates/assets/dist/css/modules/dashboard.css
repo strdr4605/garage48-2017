@@ -1,0 +1,10 @@
+#challange-type, #challange-skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  margin-left: 50px;
+  margin-top: 20px; }
+  #challange-type ul, #challange-skills ul {
+    list-style: none;
+    padding-left: 0; }

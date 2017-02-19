@@ -2,27 +2,239 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Personal Site</title>
-    <link rel="stylesheet" href="assets/css/base/style.css">
-    <link rel="stylesheet" href="assets/css/layout/layout.css">
+    <link rel="stylesheet" href="assets/dist/css/base/style.css">
+    <link rel="stylesheet" href="assets/dist/css/layout/layout.css">
+    <link rel="stylesheet" href="assets/dist/css/modules/header.css">
+    <link rel="stylesheet" href="assets/dist/css/modules/dashboard.css">
+    <link rel="stylesheet" href="assets/dist/css/modules/products.css">
   </head>
   <body class="site">
-    <div id="header">
-      Header
-    </div>
-    <div id="main">
-      <div id="sidebar1">
-        Sidebar
+    <div id="content">
+      <div id="header">
+        <div class="menu-icon">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <a href="index.html"><img src="assets/dist/images/hackwall_blue.png" alt=""></a>
+        <div id="my-list">
+          <ul>
+            <li id="challange">
+              CHALLANGES
+            </li>
+            <li>
+              PRACTICE
+            </li>
+            <li id="company">
+              COMPANIES
+            </li>
+          </ul>
+        </div>
+        <div id="profile">
+          <div id="profile-info">
+            <div id="profile-name">Dragos</div>
+            <ul>
+              <li>
+                Profile (22 %)
+              </li>
+              <li>
+                <progress value="22" max="100"></progress>
+              </li>
+              <li>
+                Rating
+              </li>
+              <li>
+                Log out
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div id="content">
-        Content
+      <div id="main">
+        <div id="dashboard" class="hide">
+          <div id="challange-type">
+            <div class="title">Challage Type</div>
+            <ul>
+              <li>
+                     <input type="checkbox" id="type-hack">
+                     <label>Hachathons</label>
+                  </li>
+              <li>
+                  <input type="checkbox" id="type-com">
+                  <label>Competitive Challenges</label>
+              </li>
+              <li>
+                  <input type="checkbox" id="type-hir">
+                  <label>Hiring Challenges (Jobs)</label>
+              </li>
+              <li>
+                  <input type="checkbox" id="type-coll">
+                  <label>College Challenges</label>
+              </li>
+            </ul>
+          </div>
+
+          <div id="challange-skills">
+            <div class="title">Challage Skills</div>
+            <ul>
+              <li>
+                <input type="checkbox" id="skills-front">
+                <label>Frontend</label>
+              </li>
+              <li>
+                  <input type="checkbox" id="skills-back">
+                  <label>Backend</label>
+              </li>
+              <li>
+                  <input type="checkbox" id="skills-design">
+                  <label>Design</label>
+              </li>
+              <li>
+                  <input type="checkbox" id="skills-mob">
+                  <label>Mobile</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="products-list">
+          <ul>
+            <li>
+              <a href="hackathon.html">
+                <div class="product type-hack skills-front">
+                  <img src="assets/dist/images/1.jpg" alt="">
+                  <div class="info">
+                    <div class="type">Hackaton</div>
+                    <div class="name">Garage48 Hackaton</div>
+                    <div>Ends in</div>
+                    <div class="time">00 : 14 : 45</div>
+                    <div>Days : Hours  :  Minutes</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <div class="product type-hack skills-back">
+                <img src="assets/dist/images/7.jpg" alt="">
+                <div class="info">
+                  <div class="type">Hackaton</div>
+                  <div class="name">BEST Hackaton 2017</div>
+                  <div>Ends in</div>
+                  <div class="time">00 : 14 : 45</div>
+                  <div>Days : Hours  :  Minutes</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product type-com skills-design">
+                <img src="assets/dist/images/6.png" alt="">
+                <div class="info">
+                  <div class="type">Competitive Challenge</div>
+                  <div class="name">Smart City</div>
+                  <div>Ends in</div>
+                  <div class="time">00 : 14 : 45</div>
+                  <div>Days : Hours  :  Minutes</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product type-hir skills-mob">
+                <img src="assets/dist/images/2.jpg" alt="">
+                <div class="info">
+                  <div class="type">Hiring Challenges (Jobs)</div>
+                  <div class="name">Pentalog Internship</div>
+                  <div>Ends in</div>
+                  <div class="time">00 : 14 : 45</div>
+                  <div>Days : Hours  :  Minutes</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product type-col skills-front skills-back">
+                <img src="assets/dist/images/3.png" alt="">
+                <div class="info">
+                  <div class="type">College Challenges</div>
+                  <div class="name">Garage48 Hackaton</div>
+                  <div>Ends in</div>
+                  <div class="time">00 : 14 : 45</div>
+                  <div>Days : Hours  :  Minutes</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product type-com skills-mob">
+                <img src="assets/dist/images/4.jpeg" alt="">
+                <div class="info">
+                  <div class="type">Competitive Challenge</div>
+                  <div class="name">Garage48 Hackaton</div>
+                  <div>Ends in</div>
+                  <div class="time">00 : 14 : 45</div>
+                  <div>Days : Hours  :  Minutes</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product type-hack skills-back skills-mob">
+                <img src="assets/dist/images/5.jpeg" alt="">
+                <div class="info">
+                  <div class="type">Hackaton</div>
+                  <div class="name">Garage48 Hackaton</div>
+                  <div>Ends in</div>
+                  <div class="time">00 : 14 : 45</div>
+                  <div>Days : Hours  :  Minutes</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product type-hack skills-design">
+                <img src="assets/dist/images/6.png" alt="">
+                <div class="info">
+                  <div class="type">Hackaton</div>
+                  <div class="name">Garage48 Hackaton</div>
+                  <div>Ends in</div>
+                  <div class="time">00 : 14 : 45</div>
+                  <div>Days : Hours  :  Minutes</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product type-com skills-design skills-mob skills-front">
+                <img src="assets/dist/images/7.jpg" alt="">
+                <div class="info">
+                  <div class="type">Competitive Challenge</div>
+                  <div class="name">Garage48 Hackaton</div>
+                  <div>Ends in</div>
+                  <div class="time">00 : 14 : 45</div>
+                  <div>Days : Hours  :  Minutes</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product company">
+                <img src="assets/dist/images/7.jpg" alt="">
+                <div class="info">
+                  <div class="type">Software Development</div>
+                  <div class="name">UNISOFT ARTS</div>
+                  <div class="country">Moldova</div>
+                  <div class="employs">employs : 5</div>
+                  <div></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
       </div>
-      <div id="sidebar2">
-        Sidebar
+      <div id="footer">
+        Footer
       </div>
-    </div>
-    <div id="footer">
-      Footer
     </div>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/dist/js/my-scripts.js">
+
+  </script>
 </html>

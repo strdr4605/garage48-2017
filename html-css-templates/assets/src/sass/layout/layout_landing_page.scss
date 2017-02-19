@@ -1,0 +1,136 @@
+$header1-color: #eadfc8;
+$content1-color: #eadfc8;
+$content2-color: #203447;
+$content3-color: #66b166;
+$footer1-color: #eadfc8;
+$button1-color: #e8855c;
+$header1-height: 50px;
+$content1-height: 700px;
+$content2-height: 500px;
+$content3-height: 500px;
+$footer1-height: 500px;
+
+#header1 {
+  background-color: $header1-color;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  height: $header1-height;
+}
+#logo1 {
+   width: 200px;
+}
+#content1 {
+  background-color: $content1-color;
+  display: flex;
+  flex-direction: row;
+  height:  $content1-height;
+  align-items: center;
+}
+#content1-leftpart {
+   padding-left: 2vw;
+   display: flex;
+   align-items: center;
+   flex-flow: column;
+   width: 100%;
+}
+
+#content1-leftpart-paragraph1 {
+   color: $content2-color;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 4vw;
+}
+#content1-leftpart-paragraph2 {
+   width:auto;
+   word-wrap: break-word;
+   color: $content2-color;
+   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   font-size: 2vw;
+}
+#content1-rightpart {
+  width: 50vw;
+}
+#content2 {
+  position: relative;
+  background-color: $content2-color;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  height: $content2-height;
+  width: auto;
+  color: $header1-color;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  font-size: 40px;
+
+  div:nth-child(1) {
+    padding-top: 15%;
+  }
+}
+
+#green {
+  color: #66b166;
+}
+
+#content3 {
+  background-color: $content3-color;
+  height: $content3-height;
+  width: auto;
+}
+#footer1 {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 75px;
+    margin: 30px 20px;
+  }
+  background-color: $footer1-color;
+  bottom: 0;
+}
+#button1 {
+   padding:10px;
+   background-color:$button1-color;
+   color: $header1-color;
+   width: 20vw;
+   text-align: center;
+   border-radius: 4px;
+   font-size: 30px
+
+}
+#button2 {
+
+   width:3vw;
+   background-color:$header1-color;
+}
+#button3 {
+   width:3vw;
+   background-color:$header1-color;
+}
+#bold {
+  font-weight: 900;
+}
+
+#button4 {
+   background-color:$button1-color;
+   padding: 10px;
+   border-radius: 10px;
+}
+#list-button li{
+   display: inline;
+   margin-left: 50px;
+}
+#list-button{
+   margin-left: 35%;
+}
+
+a {
+  text-decoration: none;
+  color: $header1-color;
+}
+
+#com {
+  color: black;
+}

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.site {
+  font-family: 'Raleway', sans-serif;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 100vw; }

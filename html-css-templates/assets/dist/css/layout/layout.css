@@ -1,0 +1,42 @@
+#header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #203447;
+  top: 0;
+  height: 50px;
+  width: auto; }
+
+#main {
+  -ms-flex: 1;
+  flex: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row; }
+
+#dashboard {
+  background-color: pink;
+  margin-left: -25vw;
+  position: relative;
+  width: 25vw; }
+
+#content {
+  background-color: #faf9f8;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+#footer {
+  background-color: #203447;
+  position: relative;
+  bottom: 0;
+  width: auto;
+  height: 50px;
+  clear: left;
+  width: 100%; }
