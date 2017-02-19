@@ -5,10 +5,13 @@
   display: flex;
   -ms-flex-direction: row;
   flex-direction: row;
-  height: 50px; }
+  height: 50px;
+  position: relative; }
 
 #logo1 {
-  width: 200px; }
+  width: 200px;
+  position: absolute;
+  margin-left: 5vw; }
 
 #content1 {
   background-color: #eadfc8;
@@ -24,14 +27,13 @@
   padding-left: 2vw;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-  align-items: center;
   -ms-flex-flow: column;
   flex-flow: column;
   width: 100%; }
 
 #content1-leftpart-paragraph1 {
   color: #203447;
+  width: 45vw;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 4vw; }
@@ -44,7 +46,8 @@
   font-size: 2vw; }
 
 #content1-rightpart {
-  width: 50vw; }
+  width: 30vw;
+  margin-right: 15vw; }
 
 #content2 {
   position: relative;
@@ -52,17 +55,12 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   height: 500px;
-  width: auto;
   color: #eadfc8;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-  align-items: center;
   -ms-flex-flow: column;
   flex-flow: column;
   font-size: 40px; }
-  #content2 div:nth-child(1) {
-    padding-top: 15%; }
 
 #green {
   color: #66b166; }
@@ -110,14 +108,15 @@
 #button4 {
   background-color: #e8855c;
   padding: 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  color: #eadfc8; }
 
 #list-button li {
   display: inline;
   margin-left: 50px; }
 
 #list-button {
-  margin-left: 35%; }
+  margin-left: 60%; }
 
 a {
   text-decoration: none;
@@ -125,3 +124,74 @@ a {
 
 #com {
   color: black; }
+
+#title {
+  color: #eadfc8;
+  text-align: center;
+  margin-top: 2vh; }
+
+#pricing {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 13px;
+  color: #203447; }
+  #pricing .name {
+    font-size: 20px;
+    margin: 10px 0; }
+  #pricing .orange {
+    color: #e8855c;
+    font-size: 70px; }
+  #pricing .periode {
+    font-size: 17px !important; }
+  #pricing .green {
+    padding: 10px 30px;
+    background-color: #66b166;
+    border-radius: 10px;
+    color: white;
+    margin: 40px 0; }
+  #pricing #price1 {
+    background-color: #eadfc8;
+    width: 20vw;
+    height: 300px;
+    border-radius: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-align: center;
+    align-items: center; }
+  #pricing #price2 {
+    background-color: #eadfc8;
+    width: 20vw;
+    height: 300px;
+    margin: 0 10vh;
+    border-radius: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-align: center;
+    align-items: center; }
+  #pricing #price3 {
+    background-color: #eadfc8;
+    width: 20vw;
+    height: 300px;
+    border-radius: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-align: center;
+    align-items: center; }
+    #pricing #price3 .orange {
+      color: #e8855c;
+      font-size: 20px;
+      text-align: center;
+      padding: 50px 0; }

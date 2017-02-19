@@ -16,9 +16,12 @@ $footer1-height: 500px;
   display: flex;
   flex-direction: row;
   height: $header1-height;
+  position: relative;
 }
 #logo1 {
    width: 200px;
+   position: absolute;
+   margin-left: 5vw;
 }
 #content1 {
   background-color: $content1-color;
@@ -30,13 +33,13 @@ $footer1-height: 500px;
 #content1-leftpart {
    padding-left: 2vw;
    display: flex;
-   align-items: center;
    flex-flow: column;
    width: 100%;
 }
 
 #content1-leftpart-paragraph1 {
    color: $content2-color;
+   width: 45vw;
    font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-size: 4vw;
@@ -49,7 +52,8 @@ $footer1-height: 500px;
    font-size: 2vw;
 }
 #content1-rightpart {
-  width: 50vw;
+  width: 30vw;
+  margin-right: 15vw;
 }
 #content2 {
   position: relative;
@@ -57,16 +61,10 @@ $footer1-height: 500px;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   height: $content2-height;
-  width: auto;
   color: $header1-color;
   display: flex;
-  align-items: center;
   flex-flow: column;
   font-size: 40px;
-
-  div:nth-child(1) {
-    padding-top: 15%;
-  }
 }
 
 #green {
@@ -117,13 +115,14 @@ $footer1-height: 500px;
    background-color:$button1-color;
    padding: 10px;
    border-radius: 10px;
+   color: $header1-color;
 }
 #list-button li{
    display: inline;
    margin-left: 50px;
 }
 #list-button{
-   margin-left: 35%;
+   margin-left: 60%;
 }
 
 a {
@@ -133,4 +132,77 @@ a {
 
 #com {
   color: black;
+}
+
+#title {
+  color: $header1-color;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+#pricing {
+  display: flex;
+  flex-flow: row;;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 13px;
+  color:$content2-color;
+
+  .name {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .orange {
+    color: $button1-color;
+    font-size: 70px;
+  }
+
+  .periode {
+    font-size: 17px !important;
+  }
+
+  .green{
+    padding: 10px 30px;
+    background-color: $content3-color;
+    border-radius: 10px;
+    color: white;
+    margin: 40px 0;
+  }
+
+  #price1{
+    background-color: $header1-color;
+    width: 20vw;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  #price2 {
+    background-color: $header1-color;
+    width: 20vw;
+    height: 300px;
+    margin: 0 10vh;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  #price3 {
+    background-color: $header1-color;
+    width: 20vw;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .orange {
+      color: $button1-color;
+      font-size: 20px;
+      text-align: center;
+      padding: 50px 0;
+    }
+  }
 }
